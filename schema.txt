@@ -1,0 +1,76 @@
+=========
+= MySQL =
+=========
+
+db_host: guru.eecs.northwestern.edu
+db_user: monitor
+db_pass: DBadmin
+db_name: procmon
+
+
+mysql> show tables;
++--------------------+
+| Tables_in_procmon  |
++--------------------+
+| cmd_format         |
+| request_queue      |
+| request_to_process |
+| users              |
++--------------------+
+
+
+mysql> describe request_to_process;
++---------------+-----------------------+------+-----+-----------------------+----------------+
+| Field         | Type                  | Null | Key | Default               | Extra          |
++---------------+-----------------------+------+-----+-----------------------+----------------+
+| id            | int(11)               | NO   | PRI | NULL                  | auto_increment |
+| request_token | varchar(45)           | NO   | UNI | NULL                  |                |
+| host          | varchar(45)           | NO   |     | NULL                  |                |
+| script        | varchar(200)          | NO   |     | NULL                  |                |
+| username      | varchar(45)           | NO   |     | NULL                  |                |
+| password      | varchar(45)           | NO   |     | NULL                  |                |
+| port          | int(11)               | YES  |     | 22                    |                |
+| th            | decimal(5,2) unsigned | YES  |     | 30.00                 |                |
+| contacts      | varchar(300)          | YES  |     | bos.process@gmail.com |                |
+| status        | int(1) unsigned       | NO   |     | 1                     |                |
+| entry_time    | timestamp             | NO   |     | CURRENT_TIMESTAMP     |                |
+| next_run_time | timestamp             | YES  |     | NULL                  |                |
+| timer         | int(11) unsigned      | NO   |     | 0                     |                |
+| args          | varchar(300)          | YES  |     | NULL                  |                |
++---------------+-----------------------+------+-----+-----------------------+----------------+
+
+
+mysql> describe request_queue;
++------------+--------------+------+-----+-------------------+----------------+
+| Field      | Type         | Null | Key | Default           | Extra          |
++------------+--------------+------+-----+-------------------+----------------+
+| id         | int(11)      | NO   | PRI | NULL              | auto_increment |
+| request    | varchar(200) | NO   |     | NULL              |                |
+| status     | varchar(20)  | YES  |     | NULL              |                |
+| start_time | datetime     | YES  |     | NULL              |                |
+| end_time   | datetime     | YES  |     | NULL              |                |
+| args       | varchar(400) | YES  |     | NULL              |                |
+| entry_time | timestamp    | YES  |     | CURRENT_TIMESTAMP |                |
++------------+--------------+------+-----+-------------------+----------------+
+7 rows in set (0.00 sec)
+
+mysql> describe cmd_format;
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | int(11)      | NO   | PRI | NULL    | auto_increment |
+| file_ext | varchar(45)  | NO   | UNI | NULL    |                |
+| cmd      | varchar(100) | YES  |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> describe users;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| name       | varchar(20) | NO   | PRI |         |       |
+| status     | varchar(20) | YES  |     | NULL    |       |
+| start_time | datetime    | YES  |     | NULL    |       |
+| end_time   | datetime    | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)

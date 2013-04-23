@@ -1,0 +1,158 @@
+
+[Main] [2013-03-19 18:52:52] [Message] Starting Request:test, ID:89
+[Remote] [2013-03-19 18:52:52] [Message] 89 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:52:54] [Message] Starting Request:test, ID:90
+[Remote] [2013-03-19 18:52:54] [Message] 90 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:52:56] [Message] Starting Request:test, ID:91
+[Remote] [2013-03-19 18:52:57] [Message] 91 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:52:58] [Message] Starting Request:test, ID:92
+[Remote] [2013-03-19 18:52:59] [Message] 92 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:53:00] [Message] Starting Request:test, ID:93
+[Remote] [2013-03-19 18:53:01] [Message] 93 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:53:02] [Message] Starting Request:test, ID:94
+[Remote] [2013-03-19 18:53:03] [Message] 94 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:53:04] [Message] Starting Request:test, ID:95
+[Remote] [2013-03-19 18:53:05] [Message] 95 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:53:06] [Message] Starting Request:test, ID:96
+[Remote] [2013-03-19 18:53:07] [Message] 96 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 18:53:08] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 18:53:09] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh ashraf alam kushtia
+[Remote] [2013-03-19 18:53:09] [Critical] ['bash: kushtia: command not found\n']
+[Remote] [2013-03-19 18:53:09] [Critical] Failed to run script /home/monitor/test.sh; Request:test ID:97
+[Main] [2013-03-19 18:53:10] [Message] Starting Request:test, ID:98
+[Remote] [2013-03-19 18:53:11] [Critical] list index out of range
+[Remote] [2013-03-19 18:53:11] [Critical] Error in start(); Request:test ID:98
+[Email] [2013-03-19 18:53:11] [Message] Email sent successfully for Request:test, ID:97
+[Email] [2013-03-19 18:53:12] [Message] Email sent successfully for Request:test, ID:98
+[Main] [2013-03-19 18:53:17] [Message] Starting Request:test, ID:99
+[Remote] [2013-03-19 18:53:18] [Critical] list index out of range
+[Remote] [2013-03-19 18:53:18] [Critical] Error in start(); Request:test ID:99
+[Email] [2013-03-19 18:53:19] [Message] Email sent successfully for Request:test, ID:99
+[THCheck] [2013-03-19 18:54:15] [Critical] global name 'line' is not defined
+[THCheck] [2013-03-19 18:54:15] [Critical] Error in check_runtime()
+[Main] [2013-03-19 19:52:53] [Message] Starting Request:test, ID:56
+[Remote] [2013-03-19 19:52:53] [Message] 56 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:52:55] [Message] Starting Request:test, ID:89
+[Remote] [2013-03-19 19:52:55] [Message] 89 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:52:57] [Message] Starting Request:test, ID:90
+[Remote] [2013-03-19 19:52:57] [Message] 90 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:52:59] [Message] Starting Request:test, ID:91
+[Remote] [2013-03-19 19:52:59] [Message] 91 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:01] [Message] Starting Request:test, ID:92
+[Remote] [2013-03-19 19:53:01] [Message] 92 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:03] [Message] Starting Request:test, ID:93
+[Remote] [2013-03-19 19:53:03] [Message] 93 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:05] [Message] Starting Request:test, ID:94
+[Remote] [2013-03-19 19:53:05] [Message] 94 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:07] [Message] Starting Request:test, ID:95
+[Remote] [2013-03-19 19:53:07] [Message] 95 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:09] [Message] Starting Request:test, ID:96
+[Remote] [2013-03-19 19:53:09] [Message] 96 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 19:53:16] [Message] Starting Request:test, ID:100
+[Remote] [2013-03-19 19:53:16] [Critical] list index out of range
+[Remote] [2013-03-19 19:53:16] [Critical] Error in start(); Request:test ID:100
+[Email] [2013-03-19 19:53:19] [Message] Email sent successfully for Request:test, ID:100
+[Main] [2013-03-19 20:06:48] [Message] Starting Request:test, ID:100
+[Remote] [2013-03-19 20:06:48] [Critical] list index out of range
+[Remote] [2013-03-19 20:06:48] [Critical] Error in start(); Request:test ID:100
+[Email] [2013-03-19 20:06:51] [Message] Email sent successfully for Request:test, ID:100
+[Main] [2013-03-19 20:08:00] [Message] Starting Request:test, ID:100
+[Remote] [2013-03-19 20:08:01] [Critical] list index out of range
+[Remote] [2013-03-19 20:08:01] [Critical] Error in start(); Request:test ID:100
+[Email] [2013-03-19 20:08:02] [Message] Email sent successfully for Request:test, ID:100
+[Main] [2013-03-19 20:10:49] [Message] Starting Request:test, ID:100
+[Remote] [2013-03-19 20:10:49] [Message] 100
+[Remote] [2013-03-19 20:10:49] [Message] pulse7.eecs.northwestern.edu
+[Remote] [2013-03-19 20:10:49] [Message] 22
+[Remote] [2013-03-19 20:10:49] [Message] monitor
+[Remote] [2013-03-19 20:10:49] [Message] DBadmin
+[Remote] [2013-03-19 20:10:49] [Message] test
+[Remote] [2013-03-19 20:10:49] [Message] /home/monitor/test.sh
+[Remote] [2013-03-19 20:10:49] [Message] NULL
+[Remote] [2013-03-19 20:10:49] [Critical] list index out of range
+[Remote] [2013-03-19 20:10:49] [Critical] Error in start(); Request:test ID:100
+[Email] [2013-03-19 20:10:52] [Message] Email sent successfully for Request:test, ID:100
+[Main] [2013-03-19 20:18:38] [Message] Starting Request:test, ID:100
+[Remote] [2013-03-19 20:18:38] [Message] 100
+[Remote] [2013-03-19 20:18:38] [Message] pulse7.eecs.northwestern.edu
+[Remote] [2013-03-19 20:18:38] [Message] 22
+[Remote] [2013-03-19 20:18:38] [Message] monitor
+[Remote] [2013-03-19 20:18:38] [Message] DBadmin
+[Remote] [2013-03-19 20:18:38] [Message] test
+[Remote] [2013-03-19 20:18:38] [Message] /home/monitor/test.sh
+[Remote] [2013-03-19 20:18:38] [Message] NULL
+[Remote] [2013-03-19 20:18:38] [Message] NULL
+[Remote] [2013-03-19 20:18:38] [Message] 100 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 20:29:07] [Message] Starting Request:test, ID:101
+[Remote] [2013-03-19 20:29:07] [Message] 101 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Email] [2013-03-19 20:30:07] [Message] Email sent successfully for Request:test, ID:21
+[Email] [2013-03-19 20:30:08] [Message] Email sent successfully for Request:test, ID:56
+[Email] [2013-03-19 20:30:10] [Message] Email sent successfully for Request:test, ID:89
+[Email] [2013-03-19 20:30:12] [Message] Email sent successfully for Request:test, ID:90
+[Email] [2013-03-19 20:30:13] [Message] Email sent successfully for Request:test, ID:91
+[Email] [2013-03-19 20:30:15] [Message] Email sent successfully for Request:test, ID:92
+[Email] [2013-03-19 20:30:17] [Message] Email sent successfully for Request:test, ID:93
+[Email] [2013-03-19 20:30:19] [Message] Email sent successfully for Request:test, ID:94
+[Email] [2013-03-19 20:30:45] [Message] Email sent successfully for Request:test, ID:95
+[Email] [2013-03-19 20:30:48] [Message] Email sent successfully for Request:test, ID:96
+[Email] [2013-03-19 20:30:50] [Message] Email sent successfully for Request:test, ID:98
+[Email] [2013-03-19 20:30:53] [Message] Email sent successfully for Request:test, ID:100
+[Email] [2013-03-19 20:31:56] [Message] Email sent successfully for Request:test, ID:101
+[Main] [2013-03-19 20:32:36] [Message] Starting Request:test, ID:102
+[Remote] [2013-03-19 20:32:36] [Message] 102 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 20:45:40] [Message] Starting Request:test, ID:99
+[Remote] [2013-03-19 20:45:41] [Message] 99 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 20:45:47] [Message] Starting Request:test, ID:103
+[Remote] [2013-03-19 20:45:48] [Message] 103 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 21:02:20] [Message] Starting Request:test, ID:104
+[Remote] [2013-03-19 21:02:20] [Message] 104 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Email] [2013-03-19 21:03:20] [Message] Email sent successfully for Request:test, ID:99
+[Email] [2013-03-19 21:03:22] [Message] Email sent successfully for Request:test, ID:102
+[Email] [2013-03-19 21:03:24] [Message] Email sent successfully for Request:test, ID:103
+[Main] [2013-03-19 21:05:51] [Message] Starting Request:test, ID:105
+[Remote] [2013-03-19 21:05:52] [Message] 105 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 21:06:03] [Message] Starting Request:test, ID:106
+[Remote] [2013-03-19 21:06:04] [Message] 106 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 21:06:15] [Message] Starting Request:test, ID:107
+[Remote] [2013-03-19 21:06:16] [Message] 107 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Main] [2013-03-19 21:16:29] [Message] Starting Request:test, ID:108
+[Remote] [2013-03-19 21:16:29] [Message] 108 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Remote] [2013-03-19 21:16:30] [Critical] ['bash: /home/monitor/test.shID_108: No such file or directory\n']
+[Remote] [2013-03-19 21:16:30] [Critical] Failed to run script /home/monitor/test.sh; Request:test ID:108
+[Email] [2013-03-19 21:16:35] [Message] Email sent successfully for Request:test, ID:108
+[Main] [2013-03-19 21:16:36] [Message] Starting Request:test, ID:109
+[Remote] [2013-03-19 21:16:36] [Message] 109 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Remote] [2013-03-19 21:16:37] [Critical] ['bash: /home/monitor/test.shID_109: No such file or directory\n']
+[Remote] [2013-03-19 21:16:37] [Critical] Failed to run script /home/monitor/test.sh; Request:test ID:109
+[Email] [2013-03-19 21:16:39] [Message] Email sent successfully for Request:test, ID:109
+[Main] [2013-03-19 21:18:19] [Message] Starting Request:test, ID:110
+[Remote] [2013-03-19 21:18:19] [Message] 110 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh NULL NULL
+[Email] [2013-03-19 21:19:19] [Message] Email sent successfully for Request:test, ID:104
+[Email] [2013-03-19 21:19:22] [Message] Email sent successfully for Request:test, ID:105
+[Email] [2013-03-19 21:19:24] [Message] Email sent successfully for Request:test, ID:106
+[Email] [2013-03-19 21:19:26] [Message] Email sent successfully for Request:test, ID:107
+[Email] [2013-03-19 21:20:29] [Message] Email sent successfully for Request:test, ID:110
+[Main] [2013-03-19 21:26:39] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 21:26:39] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh ashraf alam kushtia
+[Remote] [2013-03-19 21:26:40] [Critical] ['bash: kushtia: command not found\n']
+[Remote] [2013-03-19 21:26:40] [Critical] Failed to run script /home/monitor/test.sh; Request:test ID:97
+[Email] [2013-03-19 21:26:43] [Message] Email sent successfully for Request:test, ID:97
+[Main] [2013-03-19 21:30:53] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 21:30:53] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh ashraf alam kushtia
+[Remote] [2013-03-19 21:30:53] [Message] kushtia /home/monitor/test.sh ashraf alam ID_97
+[Remote] [2013-03-19 21:30:54] [Critical] ['bash: kushtia: command not found\n']
+[Remote] [2013-03-19 21:30:54] [Critical] Failed to run script /home/monitor/test.sh; Request:test ID:97
+[Email] [2013-03-19 21:30:58] [Message] Email sent successfully for Request:test, ID:97
+[Main] [2013-03-19 21:35:34] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 21:35:34] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh 'ashraf alam' 'kushtia' NULL
+[Remote] [2013-03-19 21:35:34] [Message] /home/monitor/test.sh 'ashraf alam' 'kushtia' ID_97
+[Main] [2013-03-19 21:42:43] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 21:42:43] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh 2010 'kushtia' NULL
+[Remote] [2013-03-19 21:42:43] [Message] /home/monitor/test.sh 2010 'kushtia' ID_97
+[Main] [2013-03-19 21:58:42] [Message] Starting Request:test, ID:97
+[Remote] [2013-03-19 21:58:42] [Message] 97 pulse7.eecs.northwestern.edu 22 monitor DBadmin test /home/monitor/test.sh 2010 'kushtia' NULL
+[Remote] [2013-03-19 21:58:42] [Message] /home/monitor/test.sh 2010 'kushtia' rid_97
+[Main] [2013-03-19 23:03:18] [Message] Starting Request:test, ID:110
+[Remote] [2013-03-19 23:03:19] [Critical] list index out of range
+[Remote] [2013-03-19 23:03:19] [Critical] Error in start(); Request:test ID:110
+[Email] [2013-03-19 23:03:23] [Message] Email sent successfully for Request:test, ID:110

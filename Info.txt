@@ -1,0 +1,17 @@
+
+Python app:
+============
+Running on guru
+
+server: guru.eecs.northwestern.edu
+dir: /files2/guru-DocumentRoot/fb/Request_Queue_Manager
+
+
+
+
+Web app:
+============
+Running on guru
+
+server: guru.eecs.northwestern.edu
+dir: /files2/guru-DocumentRoot/fb/pmonitor
